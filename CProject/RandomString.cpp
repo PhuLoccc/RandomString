@@ -32,7 +32,7 @@ char* randomString(int length)
 		do
 		{
 			character = randomChar();
-		} while (!isChar(character)); // if the chacracter is false, we have to generate again still it's true
+		} while (!isChar(character)); // if the chacracter is false, we have to generate again until it's true
 		string[i] = character;
 	}
 	string[length] = '\0';
